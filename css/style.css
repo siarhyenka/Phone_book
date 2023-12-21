@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #696969;
+}
+
+.container,
+.contacts__items {
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.contacts__header h2 {
+    text-align: center;
+    color: #fff;
+
+    margin-bottom: 20px;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    border: 2px solid #F0FFF0;
+    max-width: 485px;
+    padding: 20px;
+    margin: 0 auto;
+
+    background: #808080;
+    border-radius: 25px;
+}
+
+.contacts__form input {
+    width: 400px;
+    height: 20px;
+    background: #FFFAFA;
+    border: none;
+    padding-left: 10px;
+}    
+
+.contact__btn {
+    width: 130px;
+    height: 30px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__wrapper {
+    
+    background: #696969	;
+    padding: 25px;
+    border-radius: 25px;
+    min-height: 150px;
+    width: 400px;
+}
+
+.modal__header h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+    padding-bottom: 25px;
+}
+
+.modal__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.modal__content input {
+    height: 20px;
+}
+
+.modal__btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 80px;
+}
+
+.modal__btns button {
+    padding: 5px;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader__text {
+    font-size: 48px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts__items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.item {
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    list-style-type: none;
+    border: 1px solid #F0FFF0;
+    border-radius: 15px;
+
+}
+
+.item__elem {
+    padding-bottom: 10px;
+}
+
+.item__btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item__btns button {
+    padding: 5px;
+}
